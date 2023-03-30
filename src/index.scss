@@ -24,9 +24,7 @@ $textClr:#ffffff;
 $text: 'Work Sans', sans-serif;
 $title: 'Merriweather', serif;
 
-body{
-color: $textClr;
-}
+
 @mixin borderRadius($x) {
   border-radius: $x;
   -webkit-border-radius: $x;
