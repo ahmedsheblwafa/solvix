@@ -1,0 +1,118 @@
+@import '../../index.scss';
+.products {
+    .title{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        h2{
+            text-align: center;
+            color: $DarkGreen;
+            font-size: 10.3rem;
+            font-weight: bold;
+            opacity: 0.2;
+            letter-spacing: 2PX;
+        }
+        p{
+            position: absolute;
+            color: $mainBlue;
+            font-size: 45px;
+            font-weight: 500;
+            margin:15px 0 0 0;
+        }
+    }
+    .item{
+        box-shadow: 0px 0px 7px rgb(1, 11, 64,0.5);
+        margin: 20px 15px;
+        @include borderRadius(4px);
+        position: relative;
+        padding-bottom: 20px;
+        img{
+            @include borderRadius(4px);  
+            height: 250px;
+            object-fit: cover;
+        }
+         .Itemtitle{
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0;
+        color: $DarkGreen;
+        font-weight: bold;
+       }
+       .ItemBtn{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            height: 37px;
+            width: 37px;
+            background-color: $DarkGreen;
+            color:$textClr;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include borderRadius(6px);
+            margin:0 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 22px;
+            transition:0.5s all ease ;
+            -webkit-transition:0.5s all ease ;
+            -moz-transition:0.5s all ease ;
+            -ms-transition:0.5s all ease ;
+            -o-transition:0.5s all ease ;
+            &:hover{
+                color:$textClr;
+                background-color:$mainBlue ; 
+                
+            }
+            
+        }
+        a{
+         background-color: $DarkGreen;
+            border: 1px solid $DarkGreen; 
+            font-weight: bold;
+            color:$textClr;
+            transition:0.5s all ease ;
+            -webkit-transition:0.5s all ease ;
+            -moz-transition:0.5s all ease ;
+            -ms-transition:0.5s all ease ;
+            -o-transition:0.5s all ease ; 
+            text-decoration: none;
+            @include borderRadius(6px);
+        }
+       
+       }
+       
+    }
+    .Modal{
+
+        .modalTitle{
+            color: $DarkGreen !important;
+            font-weight: 500;
+           }
+        .body{
+            .modalImg{
+                margin-bottom: 30px;
+                @include borderRadius(10px); 
+                text-align: center;
+                position: relative;
+                height: 250px;
+                object-fit: cover;
+            }
+          .downloadBtns{
+            background-color: $DarkGreen !important;
+            border: 1px solid $DarkGreen !important;
+            margin-left: 15px;
+            i{
+                margin-right: 15px;
+            }
+          }
+        }
+        .modalClose{
+            background-color: $DarkGreen;
+            border: 1px solid $DarkGreen;
+        }
+    }
+}
