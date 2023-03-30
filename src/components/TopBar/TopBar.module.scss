@@ -1,0 +1,12 @@
+@import '../../index.scss';
+
+
+.topBar{
+    background-color: $DarkBlue;
+    height: 50px;
+    color: $textClr;
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+}

@@ -1,4 +1,8 @@
-
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 
 
 $DarkBlue:#131722;
@@ -10,6 +14,5 @@ $lightGreen:#1ED96F;
 $textClr:#ffffff;
 
 body{
-background-color:$DarkBlue;
 color: $textClr;
 }
