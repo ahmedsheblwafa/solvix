@@ -3,7 +3,7 @@ import './Contact.styles.scss'
 export default function Contact() {
     return (
         <>
-            <section class="map_sec">
+            <section id="contact" class="map_sec">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">

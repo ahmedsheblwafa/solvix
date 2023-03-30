@@ -7,7 +7,9 @@ export default function Navbar() {
             <div className="container">
                 <div className={`${style.content}`}>
                     <div className={`${style.img}`}>
-                        <img src="images/logo.png" alt="logo" />
+                        <a href="/">
+                            <img src="images/logo.png" alt="logo" />
+                        </a>
                     </div>
 
                     <div className={`${style.listItems}`}>
@@ -17,13 +19,10 @@ export default function Navbar() {
                         <a href="#company" className="nav-link">
                             <span>Company</span>
                         </a>
-                        <a href="/" className="nav-link">
+                        <a href="#product" className="nav-link">
                             <span>Products</span>
                         </a>
-                        <a href="/" className="nav-link">
-                            <span>Services</span>
-                        </a>
-                        <a href="/" className="nav-link">
+                        <a href="#contact" className="nav-link">
                             <span>Contact</span>
                         </a>
                     </div>
