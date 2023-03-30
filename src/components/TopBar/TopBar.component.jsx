@@ -7,7 +7,7 @@ export default function TopBar() {
         <div className="container">
             <div className={`${style.content}`}>
         <div className={`${style.text}`}>
-            <h3>Solvix</h3>
+            <h3>For Chemical Trade</h3>
         </div>
         <div className={`${style.social}`}>
             <a

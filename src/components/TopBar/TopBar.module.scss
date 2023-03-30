@@ -2,17 +2,66 @@
 
 
 .topBar{
-    background-color: $DarkBlue;
+    background-color: $mainBlue;
     height: 50px;
     color: $textClr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 .content{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     .text{
         h3{
-            font-family: $text;
+            font-family: "title";
+            font-size: 20px;
         }
+    }
+    .social{
+        display: flex;
+      a{
+        margin-left: 20px; 
+        text-decoration: none;     
+        i{
+            width: 25px;
+            height: 25px;
+            @include borderRadius(5px);
+            background-color: $textClr;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $DarkGreen;
+            transition:0.5s all ease ;
+            -webkit-transition:0.5s all ease ;
+            -moz-transition:0.5s all ease ;
+            -ms-transition:0.5s all ease ;
+            -o-transition:0.5s all ease ;
+            &:hover
+{
+                background-color:$DarkGreen ;
+                color: $textClr;
+            }
+        }
+      }
     }
 }
 }
+
+
+
+@media screen and (max-width:767px){
+    .topBar{
+    .content{
+        justify-content: center;
+        .text{
+            display: none;
+        }
+    }
+    }    
+}
+
+// @media screen and (min-width:768px) and (max-width:991px){
+    
+// }
