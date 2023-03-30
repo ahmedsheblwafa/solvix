@@ -17,3 +17,7 @@ $textClr:#ffffff;
 $text: 'Work Sans', sans-serif;
 $title: 'Merriweather', serif;
 
+body{
+background-color:$mainBlue;
+color: $textClr;
+}
