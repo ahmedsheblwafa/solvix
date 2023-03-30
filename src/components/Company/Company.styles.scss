@@ -1,12 +1,11 @@
 @import "../../index.scss";
 #company{
-    padding: 300px 0;
     position: relative;
-    height: 300px;
     display: flex;
+    height: 100px;
     justify-content: center;
     align-items: center;
-    background-color: $lightGreen;
+    background-color: $mainBlue;
     @media screen and (max-width:700px) {
         padding: 100px 0;
     }
@@ -14,22 +13,27 @@
         text-align: center;
         width: 100%;
         font-family: $title;
-        font-size: 200px;
+        font-size: 80px;
         position: absolute;
-        color: $mainBlue;
-        opacity: 0.2;
+        color: $DarkGreen;
+        opacity: 0.6;
+        margin: 0;
+        letter-spacing: 10px;
+        text-transform: uppercase;
         @media screen and (max-width: 700px){
-            font-size: 150px;
+            font-size: 50px;
         }
     }
     p{
-        font-family: $text;
-        font-size: 1.2rem;
+        font-family: "calibri";
+        font-size: 22px;
         text-align: center;
         color: $textClr;
         position: relative;
         z-index: 1;
-        font-weight: 800;
-        text-shadow: 2px 2px 3px $mainBlue;
+        margin: 0;
+        @media screen and (max-width: 700px){
+            font-size: 13px;
+        }
     }
 }
