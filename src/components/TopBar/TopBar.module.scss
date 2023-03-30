@@ -8,5 +8,11 @@
 .content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    .text{
+        h3{
+            font-family: $text;
+        }
+    }
 }
 }
