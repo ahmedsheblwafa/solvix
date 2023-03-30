@@ -10,17 +10,17 @@ import Slider from '../../components/Slider/Slider.component'
 import TopBar from '../../components/TopBar/TopBar.component'
 
 export default function Home() {
-  return (
-    <>
-        <TopBar/>
-        <Navbar/>
-        <MobNav/>
-        <Slider/>
-        <Company/>
-        <Products/>
-        <Services/>
-        <Contact/>
-        <Footer/>
-    </>
-  )
+    return (
+        <>
+            <TopBar />
+            <Navbar />
+            <MobNav />
+            <Slider />
+            <Company />
+            <Products />
+            <Services />
+            <Contact />
+            <Footer />
+        </>
+    )
 }
