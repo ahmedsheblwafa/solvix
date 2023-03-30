@@ -1,0 +1,35 @@
+@import "../../index.scss";
+#company{
+    padding: 300px 0;
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $lightGreen;
+    @media screen and (max-width:700px) {
+        padding: 100px 0;
+    }
+    h2{
+        text-align: center;
+        width: 100%;
+        font-family: $title;
+        font-size: 200px;
+        position: absolute;
+        color: $mainBlue;
+        opacity: 0.2;
+        @media screen and (max-width: 700px){
+            font-size: 150px;
+        }
+    }
+    p{
+        font-family: $text;
+        font-size: 1.2rem;
+        text-align: center;
+        color: $textClr;
+        position: relative;
+        z-index: 1;
+        font-weight: 800;
+        text-shadow: 2px 2px 3px $mainBlue;
+    }
+}
