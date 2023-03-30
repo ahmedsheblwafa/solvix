@@ -6,7 +6,6 @@ import Footer from '../../components/Footer/Footer.component'
 import MobNav from '../../components/MobNav/MobNav'
 import Navbar from '../../components/Navbar/Navbar.component'
 import Products from '../../components/Products/Products.component'
-import Services from '../../components/Servics/Services.component'
 import Slider from '../../components/Slider/Slider.component'
 import TopBar from '../../components/TopBar/TopBar.component'
 
@@ -20,7 +19,6 @@ export default function Home() {
             <Company />
             <AboutUs/>
             <Products />
-            <Services />
             <Contact />
             <Footer />
         </>
