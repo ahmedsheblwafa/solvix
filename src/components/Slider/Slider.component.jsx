@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import React from 'react'
+>>>>>>> bf64d306d6e5768240b3b5db75dfbbc8b706dfb6
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 
