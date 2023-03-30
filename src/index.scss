@@ -4,7 +4,14 @@
   padding: 0px;
   margin: 0px;
 }
-
+@font-face {
+  font-family: "title";
+  src: url("../src/Fonts/futura\ medium\ bt.ttf");
+}
+@font-face {
+  font-family: "calibri";
+  src: url("../src/Fonts/Calibri\ Regular.ttf");
+}
 
 $DarkBlue:#131722;
 $mainBlue:#010B40;
@@ -17,7 +24,11 @@ $textClr:#ffffff;
 $text: 'Work Sans', sans-serif;
 $title: 'Merriweather', serif;
 
-body{
-background-color:$mainBlue;
-color: $textClr;
+
+@mixin borderRadius($x) {
+  border-radius: $x;
+  -webkit-border-radius: $x;
+  -moz-border-radius: $x;
+  -ms-border-radius: $x;
+  -o-border-radius: $x;
 }
