@@ -1,0 +1,16 @@
+@import "../../index.scss";
+#footer{
+    position: relative;
+    background-color: $DarkBlue;
+    color: $DarkGreen;
+    background-image: url('./images/factory.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    section{
+        position: relative;
+        z-index: 1;
+        
+    }
+}
