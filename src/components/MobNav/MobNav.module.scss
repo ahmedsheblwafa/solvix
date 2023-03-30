@@ -1,0 +1,97 @@
+@import "../../index.scss";
+.mobNav {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .mobLeft {
+      width: 30%;
+      padding: 10px;
+      .logo {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .mobRight {
+      .icon {
+        font-size: 30px;
+        color: $DarkGreen;
+      }
+    }
+  }
+
+
+
+  .mobBar {
+    background-color:$mainBlue;
+    height: 0;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    top: 0;
+    padding: 0px 20px;
+    .head {
+        display: flex;
+        justify-content: space-between;
+        .logo {
+          width: 27%;
+          img {
+            width: 100%;
+          }
+        }
+        .icon {
+          color: #eee;
+          font-size: 33px;
+        }
+      }
+    .body {
+      padding: 15px 0 15px 0;
+      .item {
+        display: flex;
+        margin-top: 20px;
+        border-bottom: 0.5px solid #4e7a9a;
+        .links {
+          color: #eee;
+          text-align: left;
+          margin-left: 10px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+
+  @media screen and (min-width: 1280px) {
+    .mobNav{
+      display: none;
+    }
+    .mobBar{
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .navbar{
+      display: none;
+    }
+  }
+  
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar{
+      display: none;
+    }
+
+
+    .mobBar {
+      .head {
+          .icon {
+            font-size: 53px;
+          }
+        }
+    }
+  }

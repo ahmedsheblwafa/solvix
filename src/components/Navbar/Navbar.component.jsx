@@ -13,42 +13,27 @@ export default function Navbar() {
          <div className={`${style.listItems}`}>
           <a
             href="/"
-            className={({ isActive }) =>
-              isActive ? " nav-link hoverClr" : "nav-link"
-            }
-          >
+            className= "nav-link">
             <span>Home</span>
           </a>
          <a
-            href="/" id='company'
-            className={({ isActive }) =>
-              isActive ? " nav-link hoverClr" : "nav-link"
-            }
-          >
+            href="#company" 
+            className="nav-link">
             <span>Company</span>
           </a>
          <a
             href="/"
-            className={({ isActive }) =>
-              isActive ? " nav-link hoverClr" : "nav-link"
-            }
-          >
+            className="nav-link">
             <span>Products</span>
           </a>
         <a
             href="/"
-            className={({ isActive }) =>
-              isActive ? " nav-link hoverClr" : "nav-link"
-            }
-          >
+            className="nav-link">
             <span>Services</span>
           </a>
           <a
             href="/"
-            className={({ isActive }) =>
-              isActive ? " nav-link hoverClr" : "nav-link"
-            }
-          >
+            className="nav-link">
             <span>Contact</span>
           </a>
         </div> 
@@ -64,5 +49,7 @@ export default function Navbar() {
       </div>
 
     </div>
+
+    
   )
 }

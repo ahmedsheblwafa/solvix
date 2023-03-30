@@ -12,13 +12,24 @@
             }
         }
         .listItems{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             a{
                 font-family: "title";
                 text-decoration: none;
                 span{
                     margin-left: 15px;
                     text-transform: uppercase;
-                    
+                    color: $DarkGreen;
+                    transition: 0.5s all ease;
+                    -webkit-transition: 0.5s all ease;
+                    -moz-transition: 0.5s all ease;
+                    -ms-transition: 0.5s all ease;
+                    -o-transition: 0.5s all ease;
+                    &:hover{
+                        color: $mainBlue; 
+                    }
                 }
             }
         }
