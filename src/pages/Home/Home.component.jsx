@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutUs from '../../components/AboutUs/AboutUs'
 import Company from '../../components/Company/Company.component'
 import Contact from '../../components/Contact/Contact.component'
 import Footer from '../../components/Footer/Footer.component'
@@ -17,6 +18,7 @@ export default function Home() {
             <MobNav />
             <Slider />
             <Company />
+            <AboutUs/>
             <Products />
             <Services />
             <Contact />

@@ -37,7 +37,7 @@ export default function Products() {
         setInfo(element)
     }
     return (
-        <div className={`${style.products} py-5`}>
+        <div className={`${style.products} `}>
             <div className="container">
                 <div className={`${style.title}`}>
                     <h2>Products</h2>
@@ -45,7 +45,7 @@ export default function Products() {
                 </div>
                 <div className="row">
                     {myObj.map((item, index) => (
-                        <div className="col-lg-3">
+                        <div className="col-lg-3" key={index}>
                             <div className={`${style.item}`}>
                                 <img src={item.path} alt="product-Images" className="w-100" />
                                 <h3 className={`${style.Itemtitle}`}>{item.title}</h3>

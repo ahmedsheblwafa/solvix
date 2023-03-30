@@ -1,0 +1,93 @@
+@import "../../index.scss";
+.about {
+    padding: 50px 0 50px;
+    .itemBorder{
+        border:8px solid $DarkGreen;
+            height: 450px;
+             position: relative;
+            width:100%;
+    }
+    .overlay{
+        position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    top:100%;
+    left:0; 
+    ul{
+        list-style: none;
+            position: absolute;
+            bottom: 50%;
+            right:35%; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+              margin-left: 10px;
+               i{
+                color:#fff;
+                 font-size: 20px;
+               }
+            }
+    }
+    }
+    .img{ 
+        &:hover .overlay{
+                opacity: 1;
+                top:0;
+        }
+        background: {
+            image:url('../../../public/images/containers.jpg'); 
+            size: cover;
+        };
+        height: 100%;
+            position: absolute;
+            top:15px;
+            left:15px;
+            width:100%;
+            overflow: hidden;
+    }
+   .aboutTitle{
+    h2{
+        color: $lightGray;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "title";
+        @media screen and (max-width:700px) {
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        @media screen and (min-width:702px) {
+            font-size: 40px;
+            margin-top: 35px;
+        }
+        span{
+          color:  $DarkGreen;
+        }
+       
+    }
+    p{
+        text-align: left;
+        font-family: "calibri";
+        color: $lightGray;
+    }
+    .one{
+        list-style: none;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+    .two{
+        list-style: none;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+   }
+}
