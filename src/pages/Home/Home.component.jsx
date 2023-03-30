@@ -17,10 +17,10 @@ export default function Home() {
         <MobNav/>
         <Slider/>
         <Company/>
-        {/* <Products/>
+        <Products/>
         <Services/>
         <Contact/>
-        <Footer/> */}
+        <Footer/>
     </>
   )
 }
